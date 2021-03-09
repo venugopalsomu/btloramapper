@@ -2,12 +2,12 @@
 
     global.ttnmapper = global.ttnmapper || {};
     global.ttnmapper.config = global.ttnmapper.config || {
-        deviceId: 'mb_lora32u4_001',
+        deviceId: 'bt_lora_0001',
         mqtt: {
-            host: "m23.cloudmqtt.com",
-            port: 34773,
-            username: "pphmemwg",
-            password: "Athpp5O1Lrm1",
+            host: "m20.cloudmqtt.com",
+            port: 39427,
+            username: "bridgethings",
+            password: "venugopal",
             ssl: true,
             topic: "+/devices/+/up"
         },
